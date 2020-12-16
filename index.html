@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/c300050d94.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
    
     <header>
-      <div id="wrapper-head">
+      <div id="wrapper-logo">
         <img id="logo" src="assets/logo_50.svg" alt="Logo">
+      </div>
+      <div id="wrapper-nav">
         <nav>
-          <a class="head" href="#">HOME</a>
+          <span class="head active">HOME</span>
           <a class="head" href="#">ABOUT</a>
           <a class="head" href="#">PRICING</a>
           <a class="head" href="#">CONTACT</a>
@@ -35,22 +38,22 @@
         <p id="add">
           3481 Melrose Avenue,<br>Beverly Hills, CA 90210, USA
         </p>
-        <a id="tel" href="tel:1234567890">(123) 456-7890</a>
-        <a id="mail" href="mailto:name@example.com" title="E-mail" target="_blank">name@example.com</a>
+        <a id="tel" class="contact" href="tel:1234567890">(123) 456-7890</a>
+        <a id="mail" class="contact" href="mailto:name@example.com" title="E-mail" target="_blank">name@example.com</a>
         <ul id="links">
           <li>
             <a href="#" title="Facebook" target="_blank">
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="contact-info__social-media-icon fab fa-facebook-f"></i>
             </a>
           </li>
           <li>
             <a href="#" title="Instagram" target="_blank">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="contact-info__social-media-icon fab fa-instagram"></i>
             </a>
           </li>
           <li>
             <a href="#" title="Twitter" target="_blank">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="contact-info__social-media-icon fab fa-twitter"></i>
             </a>
           </li>
         </ul>
